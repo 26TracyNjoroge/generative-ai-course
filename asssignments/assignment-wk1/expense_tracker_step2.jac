@@ -17,7 +17,6 @@ obj ExpenseTracker {
     def run {
         while True {
             item = input("What did you buy? ('q' when done): ");
-
             if item == "q" {
                 break;
             }
